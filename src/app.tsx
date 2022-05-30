@@ -1,9 +1,11 @@
-import React, { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 const App = () => {
+  const svgRef = useRef(null);
+
   return (
     <>
-      <h1>hello world Z</h1>
+      <h1>hello world</h1>
     </>
   );
 };

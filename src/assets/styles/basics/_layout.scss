@@ -1,27 +1,50 @@
-.app-general {
-    height: calc(97vh);
-    background-color: $bgrclr;
-    display: grid;
-    grid-template-rows: 1fr 0fr 6fr;
-    > * {
-        grid-column: 2;
-    }
-
-    > .full {
-        grid-column: 1 / -1;
-    }
-
-    grid-template-columns:
-        1fr
-        minmax(457px, 457px)
-        1fr;
-
-    @include for-mobile-layout {
-        height: calc(90vh);
-        justify-content: center;
-        grid-template-columns:
-            1fr
-            minmax(375px, 375px)
-            1fr;
-    }
+.svgLogo {
+  & > path:nth-child(1) {
+    stroke-dasharray: 369.65;
+    stroke-dashoffset: 369.65;
+  }
+  & > path:nth-child(2) {
+    stroke-dasharray: 223.72;
+    stroke-dashoffset: 223.72;
+  }
+  & > path:nth-child(3) {
+    stroke-dasharray: 349.01;
+    stroke-dashoffset: 349.01;
+  }
+  & > path:nth-child(4) {
+    stroke-dasharray: 284.04;
+    stroke-dashoffset: 284.04;
+  }
+  & > path:nth-child(5) {
+    stroke-dasharray: 284.04;
+    stroke-dashoffset: 284.04;
+  }
+  & > path:nth-child(6) {
+    stroke-dasharray: 331.34;
+    stroke-dashoffset: 331.34;
+  }
+  & > path:nth-child(7) {
+    stroke-dasharray: 489.16;
+    stroke-dashoffset: 489.16;
+  }
+  & > path:nth-child(8) {
+    stroke-dasharray: 300.38;
+    stroke-dashoffset: 300.38;
+  }
+  & > path:nth-child(9) {
+    stroke-dasharray: 300.38;
+    stroke-dashoffset: 300.38;
+  }
+  & > path:nth-child(10) {
+    stroke-dasharray: 430.83;
+    stroke-dashoffset: 430.83;
+  }
+  & > path:nth-child(11) {
+    stroke-dasharray: 245.64;
+    stroke-dashoffset: 245.64;
+  }
+  & > path:nth-child(12) {
+    stroke-dasharray: 349.01;
+    stroke-dashoffset: 349.01;
+  }
 }
