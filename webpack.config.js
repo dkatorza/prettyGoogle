@@ -48,12 +48,8 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
-        type: 'asset/inline',
-      },
-      {
-        test: /\.svg$/,
-        use: ['@svgr/webpack', 'url-loader'],
+        test: /\.(woff(2)?|eot|ttf|otf|svg|)$/i,
+        type: 'asset/resource',
       },
     ],
   },

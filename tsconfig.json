@@ -6,7 +6,9 @@
     "moduleResolution": "node",
     "outDir": "dist",
     "target": "ESNext",
-    "sourceMap": true
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true
+ 
   },
-  "include": ["src"]
+  "include": ["src","index.d.ts"]
 }

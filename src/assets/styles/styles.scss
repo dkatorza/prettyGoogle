@@ -1,7 +1,7 @@
 @import './setup/variables.scss';
 @import './setup/functions.scss';
 @import './setup/mixins.scss';
-// @import './setup/typography';
+@import './setup/typography.scss';
 
 // Basics
 @import './basics/helpers.scss';
@@ -10,5 +10,6 @@
 @import './basics/buttons.scss';
 
 //Pages
-
+@import './pages/home.scss';
 //Cmps
+@import './cmps/svglogo.scss';
